@@ -17,10 +17,30 @@
             <p>Score: <span id="score">0</span></p>
         </div>
         <div id="crew-dialog">Welcome aboard! Let's begin the game.</div>
+        <!-- Progress Bars -->
+        <div id="progress-bars">
+            <div class="progress">
+                <span>Infected Remaining:</span>
+                <div class="progress-bar">
+                    <div id="infected-progress" class="progress-fill"></div>
+                </div>
+            </div>
+            <div class="progress">
+                <span>Innocents Planked:</span>
+                <div class="progress-bar">
+                    <div id="innocents-progress" class="progress-fill"></div>
+                </div>
+            </div>
+        </div>
         <div id="choices">
-            <button onclick="plank()">Plank</button>
-            <button onclick="spare()">Spare</button>
-            <button onclick="investigate()">Investigate</button>
+            <button onclick="plank()">⚔️ Plank</button>
+            <button onclick="spare()">🛡️ Spare</button>
+            <button onclick="investigate()">🔍 Investigate</button>
+        </div>
+        <!-- Achievements Section -->
+        <div id="achievements-container">
+            <h2>Achievements</h2>
+            <ul id="achievements-list"></ul>
         </div>
     </div>
     <!-- External JavaScript -->
