@@ -1,5 +1,7 @@
 ﻿# Cyberplank
 Welcome aboard, captain! Cyberplank is an interactive, browser-based adventure where you must identify and deal with infected crew members to save your ship. Make careful decisions, as planking innocent sailors can lead to dire consequences.
+![image](https://github.com/user-attachments/assets/e65d37b3-04df-4525-b4a2-b49381af1559)
+
 https://orion-north.github.io/Cyberplank/
 ## Introduction
 A mysterious plague has struck your ship, and some crew members show signs of infection. As the captain, it's your duty to protect your vessel and crew. Use your wit to decide who to plank (eliminate) and who to spare, but be cautious—making the wrong choice can have serious repercussions.
