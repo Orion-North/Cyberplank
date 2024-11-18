@@ -1,0 +1,93 @@
+/* styles.css */
+
+body {
+    font-family: 'Pirata One', cursive;
+    /* Background Image */
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #f3d19c;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: #f3d19c;
+    text-shadow: 2px 2px 5px #000000;
+    margin-bottom: 20px;
+}
+
+#game-container {
+    background: rgba(0, 0, 0, 0.8);
+    border: 3px solid #f3d19c;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+}
+
+button {
+    margin: 10px 5px;
+    padding: 10px 20px;
+    background: #f3d19c;
+    color: #1a2a3a;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: #d1b17a;
+}
+
+#crew-dialog {
+    margin: 20px 0;
+    font-size: 1.2em;
+    min-height: 60px;
+    transition: opacity 1s;
+    opacity: 0;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+#game-state p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    #game-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 0.9em;
+    }
+
+    #crew-dialog {
+        font-size: 1em;
+    }
+
+    #game-state p {
+        font-size: 0.9em;
+    }
+}

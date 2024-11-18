@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pirate Infection Game</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Pirate Infection Game</h1>
+    <div id="game-container">
+        <div id="game-state">
+            <p>Infected Remaining: <span id="infected-remaining">5</span></p>
+            <p>Innocents Planked: <span id="innocents-planked">0</span></p>
+            <p>Score: <span id="score">0</span></p>
+        </div>
+        <div id="crew-dialog">Welcome aboard! Let's begin the game.</div>
+        <div id="choices">
+            <button onclick="plank()">Plank</button>
+            <button onclick="spare()">Spare</button>
+            <button onclick="investigate()">Investigate</button>
+        </div>
+    </div>
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
